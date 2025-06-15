@@ -1,0 +1,10 @@
+
+nav ul li a.active {
+  color: rgb(21, 93, 253);
+  text-decoration: underline;
+}
+
+nav ul li a:not(.active):hover {
+  color: orange;
+  text-decoration: none; /* optional */
+}
